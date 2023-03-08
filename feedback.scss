@@ -1,0 +1,56 @@
+@import 'style';
+
+.form_container{
+    color: blueviolet;
+    align-items: center;    
+    margin-left: 4%;
+    font-size: 30px;
+    width: 700px;
+    position: absolute;
+    height: 250px;
+    font-weight: bold;
+    padding-left: 3%;
+    align-items: center;
+    top: 30%;
+    right: 20%;
+    text-shadow: $text_border_input;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: inset;
+    margin-left: 10%;
+    width: 600px;
+    height: 320px;
+
+  }
+  h1{
+    color:$maroon_color;
+    text-align: center;
+    font-size: $size;
+    font-size: 30px; // Set font size
+    font-weight: bold; // Set font weight
+    padding: 5px; 
+    font-family: $font_family;
+    text-shadow: $text_border;
+    font-style: bold;
+    text-shadow: $text_border;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+}
+.Button{
+    text-align: center;
+    font-size: 30px; // Set font size
+    font-weight: bold; // Set font weight
+    padding: 2px; 
+    border-color: rgb(214, 160, 22);
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: groove;
+    background-color: aquamarine;
+    width: 10%;
+    right: 42%;
+    position: absolute;
+    bottom:30%;
+    right: 40%;
+
+}

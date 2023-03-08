@@ -1,0 +1,78 @@
+.h1 {
+  color: rgba(171, 68, 68, 0.929);
+  text-align: center;
+  font-size: 50px;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: -1px -1px 0 rgb(74, 44, 44), 1px -1px 0 white, -1px 1px 0 blueviolet, 1px 1px 0 white;
+  background-color: rgba(224, 218, 208, 0.5);
+  border-color: rgb(247, 245, 240);
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: groove;
+  font-style: bold;
+}
+
+.input {
+  text-align: center;
+  width: 800px;
+  height: 320px;
+  font-weight: bold;
+  color: grey;
+  font-size: 40px;
+  font-style: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  text-shadow: -2px -1px 0 rgb(31, 29, 29), 2px -1px 0 white, -1px 1px 0 rgb(15, 15, 16), 1px 1px 0 white;
+  align-items: center;
+  background-color: rgba(222, 184, 135, 0.5);
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: inset;
+  position: absolute;
+  right: 10%;
+}
+.input input[type=text] {
+  padding: 30px;
+  border: 1px solid rgb(35, 30, 23);
+  border-radius: 10px;
+  top: -20;
+  align-items: center;
+  text-align: center;
+  color: rgb(70, 55, 36);
+}
+
+.Button {
+  background-color: rgb(129, 129, 211);
+  color: green;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-color: wheat;
+  font-weight: bold;
+  margin-left: -30%;
+  position: absolute;
+  right: -9%;
+  border-style: groove;
+}
+
+.Button:hover {
+  background-color: #45a518;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.button_container {
+  text-align: center;
+  border-color: burlywood;
+}
+
+/*# sourceMappingURL=style_login.css.map */

@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="feedback.css"> <!--Linking the HTML file to the relevant css file for styling purpose-->
     <title>Feedback Form</title>
   </head>
+  <!--Styling the body section of the code-->
   <style>
     body {
         background-image: url('bookf2.jpg');
@@ -13,9 +14,10 @@
         background-size: 95% 95%;
       }
 </style>
+  <!---->
 <body background="bookf2.jpg">
     <h1>Feedback Form</h1>
-    <div class="form_container">
+    <div class="form_container">  
     <form action="submit-feedback.php" method="POST">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required><br><br>
@@ -29,7 +31,7 @@
     </form>
     </div>
     <div class="Button">
-        <label for="Submit"><a href="index.html">Submit</a></label><br>
+        <label for="Submit"><a href="index.html">Submit</a></label><br> <!--Creating a button to submit the feedback-->
      </div> 
   </body>
 </html>
